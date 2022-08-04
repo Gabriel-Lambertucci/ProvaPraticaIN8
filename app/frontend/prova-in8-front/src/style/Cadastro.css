@@ -1,0 +1,48 @@
+.main-cadastro {
+  background-color: #29abe2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 150px;
+  width: 40%;
+}
+
+@font-face {
+  font-family: 'font-div2-header';
+  src: url('../Fonts/HelveticaUltraLt_0.ttf') format('truetype');;
+}
+
+
+.header-cadastro {
+  font-family: 'font-div2-header';
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.label-cadastro {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input-cadastro {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.input-cadastro:focus {
+  background: none;
+  border: transparent;
+}
