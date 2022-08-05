@@ -6,14 +6,18 @@
   text-align: center;
 }
 
+.container-cadastro {
+  margin: 0 auto;
+  width: 40%;
+}
+
+
 .form-cadastro {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   text-align: center;
-  padding-left: 150px;
-  width: 40%;
-}
+  justify-content: center;
+}  
 
 @font-face {
   font-family: 'font-div2-header';
@@ -23,26 +27,47 @@
 
 .header-cadastro {
   font-family: 'font-div2-header';
-  font-size: 25px;
-  margin-top: 40px;
+  margin-top: 60px;
+}
+
+.h2-cadastro {
+  font-size: 40px;
+  font-weight: 0px;
 }
 
 .label-cadastro {
   align-items: flex-start;
+  color: white;
   display: flex;
   flex-direction: column;
+  font-family: Helvetica Condensed Regular;
+  font-size: 15px;
   margin-top: 20px;
+  font-weight: lighter;
+  padding-left: 35px;
+  width: 95%;
 }
 
 .input-cadastro {
   background: none;
   border: none;
   border-bottom: 1px solid white;
-  margin-top: 20px;
-  width: 90%;
+  color: white;
+  font-family: Helvetica Condensed Regular;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .input-cadastro:focus {
-  background: none;
-  border: transparent;
+  border-bottom: white;
+}
+
+.input-cadastro::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+
+.button-cadastro {
+  font-family: 'font-div2-header';
 }

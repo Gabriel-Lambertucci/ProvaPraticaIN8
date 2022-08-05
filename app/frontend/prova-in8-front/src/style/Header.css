@@ -3,6 +3,7 @@
   background-size: cover;
   color: white;
   height: 948px; 
+  margin: -15px 0 0 0;
 }
 
 @font-face {
@@ -40,7 +41,7 @@
 .img-header {
   height: 150px;
   padding-left: 50px;;
-  width: 170px;
+  width: 200px;
 }
 
 .div2-header {
@@ -55,14 +56,14 @@
 
 #h2-div2-header {
   font-family: 'font-div2-header';
-  font-size: 100px;
-  font-weight: 0;
+  font-size: 113px;
+  font-weight: lighter;
   margin: 0;
 }
 
 #h4-div2-header {
   font-family: 'font-div2-header';
   font-size: 50px;
-  font-weight: 0;
+  font-weight: lighter;
   margin: 18px 0;
 }
