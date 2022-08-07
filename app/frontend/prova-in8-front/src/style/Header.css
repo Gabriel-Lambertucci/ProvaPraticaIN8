@@ -2,8 +2,9 @@
   background-image: url('../imagens/index-image.jpg');
   background-size: cover;
   color: white;
-  height: 948px; 
+  height: 90%; 
   margin: -15px 0 0 0;
+  position: relative; 
 }
 
 @font-face {
@@ -66,4 +67,103 @@
   font-size: 50px;
   font-weight: lighter;
   margin: 18px 0;
+}
+
+@keyframes menuMobile {
+  from {height: 0}
+  to {height: 38vh}
+}
+
+.menu-mobile {
+  background-color: #29abe2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 38vh;
+  width: 60vw;
+  padding: 30px 0 0 50px ;
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+
+.notShow {
+  visibility: hidden;
+}
+
+.closed {
+  margin: 0;
+}
+
+.hamburger0 {
+  position: relative;
+  width: 15%;
+}
+
+.hamburgerClosed {
+  width: 15%;
+}
+
+button {
+  background: none;
+  border: none;
+  text-align: start;
+  width: 45vw;
+}
+
+@media (max-width: 500px) {
+  .header {
+    background-image: url('../imagens/index-image-mobile.jpg');
+    height: 90vh;
+  }
+
+  .div1-header {
+    display: flex;
+    justify-content: space-between;
+    font-family:'font-div1-header';
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .div2-header {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  .img-header {
+    height: 110px;
+    padding-left: 0;
+    width: 30%;
+  }
+
+  .nav-header {
+    width: 100%;
+  }
+
+  .ul-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 60px;
+  }
+
+  li {
+    margin: 12px 0;
+  }
+  
+  #h2-div2-header {
+    font-family: 'font-div2-header';
+    font-size: 15vw;
+    font-weight: lighter;
+    margin: 0 auto;
+  }
+
+  #h4-div2-header {
+    font-family: 'font-div2-header';
+    font-size: 7vw;
+    font-weight: lighter;
+    margin: 18px 0;
+  }
 }

@@ -1,0 +1,16 @@
+.footer {
+  background-image: url('../imagens/rodape-desktop.jpg');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+}
+
+p {
+  font-family: Roboto Light;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+}
